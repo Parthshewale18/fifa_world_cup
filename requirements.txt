@@ -1,0 +1,6 @@
+pandas
+lxml
+requests
+matplotlib
+seaborn
+sklearn
