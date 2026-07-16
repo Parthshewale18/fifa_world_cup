@@ -64,8 +64,8 @@ Run the notebooks in order:
 
 | Model | Accuracy |
 |---|---|
-| Naive baseline (`rank_diff > 0` → home win) | — |
-| Logistic Regression | — |
+| Naive baseline (`rank_diff > 0` → home win) | 43% |
+| Logistic Regression | 48% |
 | **XGBoost** | **50.7%** |
 
 XGBoost log-loss: **1.038**
