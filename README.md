@@ -83,10 +83,10 @@ Feature importance confirmed the model is learning sensible patterns: `rank_diff
 
 ## Predicting Upcoming Matches
 
-`src/models/predict_upcoming.py` loads the trained model and generates outcome probabilities for any two teams, using each team's most recent known rank/form/points:
+`src/models/predict.py` loads the trained model and generates outcome probabilities for any two teams, using each team's most recent known rank/form/points:
 
 ```bash
-python src/models/predict_upcoming.py
+python src/models/predict.py
 ```
 
 Example output:
