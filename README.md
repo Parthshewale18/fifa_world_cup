@@ -30,10 +30,10 @@ worldcup2026-predictor/
 │   └── model.ipynb               # trains + compares baseline vs XGBoost, evaluates, saves model
 ├── src/
 │   ├── data/
-│   │   ├── inspect_raw_data.py   # prints columns/shape for every raw CSV
-│   │   └── clean_and_merge.py    # script version of the cleaning/merging pipeline
+│   │   └── data_inspection.py   # prints columns/shape for every raw CSV
+│   │   
 │   └── models/
-│       └── predict_upcoming.py   # generates predictions for unplayed matches
+│       └── predict.py   # generates predictions for unplayed matches
 ├── models/                   # trained model + feature column list (not committed — see below)
 ├── requirements.txt
 └── README.md
