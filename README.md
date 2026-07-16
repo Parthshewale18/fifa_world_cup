@@ -21,8 +21,8 @@ Only matches from the **last 25 years** are used for training — older matches 
 ```
 worldcup2026-predictor/
 ├── data/
-│   ├── raw/                  # downloaded/collected source CSVs (not committed — see Setup)
-│   └── processed/            # cleaned, merged, model-ready datasets (not committed)
+│   ├── raw/                  # downloaded/collected source CSVs 
+│   └── processed/            # cleaned, merged, model-ready datasets
 ├── notebooks/
 │   ├── clean_and_merge.ipynb     # loads, cleans, merges all raw sources
 │   ├── eda.ipynb                 # exploratory analysis, missing values, outliers
@@ -45,7 +45,7 @@ worldcup2026-predictor/
 pip install -r requirements.txt
 ```
 
-To re-download the raw datasets, get a Kaggle API token (kaggle.com → Settings → API → Create New Token), save it to `~/.kaggle/kaggle.json`, then download the three datasets linked above into `data/raw/historical_matches/`, `data/raw/fifa_rankings/`, and `data/raw/wc_team_features_2026/` respectively.
+Download the three datasets linked above into `data/raw/historical_matches/`, `data/raw/fifa_rankings/`, and `data/raw/wc_team_features_2026/` respectively.
 
 ## Pipeline
 
